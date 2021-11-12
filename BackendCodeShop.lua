@@ -10,4 +10,4 @@ ReplicatedStorage.BuyItem.OnServerInvoke = function(player, ItemName)
 	if CustomerData["Cash"] >= ShopOptions[ItemName] then
 		CustomerData["Cash"] -= ShopOptions[ItemName] -- Player will have 5 dollars left
 	end
-end)
+end
